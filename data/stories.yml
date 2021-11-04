@@ -1,0 +1,49 @@
+version: "2.0"
+
+stories:
+
+- story: start game
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: action_random_animal_select
+
+- story: color guess
+  steps:
+  - intent: color_guess
+  - action: action_color_guess
+
+- story: color ask
+  steps:
+  - intent: color_ask
+  - action: action_color_tell
+
+- story: leg guess
+  steps:
+  - intent: leg_guess
+  - action: action_leg_guess
+
+- story: leg ask
+  steps:
+  - intent: leg_ask
+  - action: action_leg_tell
+
+- story: talent guess
+  steps:
+  - intent: talent_guess
+  - action: action_talent_guess
+
+- story: animal guess
+  steps:
+  - intent: animal_guess
+  - action: action_animal_guess
+
+- story: animal ask
+  steps:
+  - intent: animal_ask
+  - action: action_animal_tell
+
+- story: play again
+  steps:
+  - intent: play_again
+  - action: action_random_animal_select

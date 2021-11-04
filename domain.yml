@@ -1,0 +1,59 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - color_guess
+  - color_ask
+  - leg_guess
+  - leg_ask
+  - talent_guess
+  - talent_ask
+  - animal_guess
+  - animal_ask
+  - play_again
+
+entities:
+  - user_guess
+
+slots:
+  user_guess:
+    type: text
+    influence_conversation: false
+  animal_name:
+    type: text
+  animal_color:
+    type: text
+  animal_legs:
+    type: text
+  animal_swim:
+    type: text
+  animal_jump:
+    type: text
+  animal_fly:
+    type: text
+  animal_bark:
+    type: text
+  animal_whinny:
+    type: text
+
+actions:
+  - action_random_animal_select
+  - action_color_guess
+  - action_color_tell
+  - action_leg_guess
+  - action_leg_tell
+  - action_talent_guess
+  - action_animal_guess
+  - action_animal_tell
+
+responses:
+  utter_greet:
+  - text: "Hi!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

@@ -1,0 +1,151 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: color_guess
+  examples: |
+    - Is it [red](user_guess)?
+    - Is this animal [red](user_guess)?
+    - Could it be [red](user_guess)?
+    - Is it [green](user_guess)?
+    - Is this animal [green](user_guess)?
+    - Could it be [green](user_guess)?
+    - Is it [blue](user_guess)?
+    - Is this animal [blue](user_guess)?
+    - Could it be [blue](user_guess)?
+    - Is it [brown](user_guess)?
+    - Is this animal [brown](user_guess)?
+    - Could it be [brown](user_guess)?
+    - Is it [yellow](user_guess)?
+    - Is this animal [yellow](user_guess)?
+    - Could it be [yellow](user_guess)?
+    - Is it [black](user_guess)?
+    - Is this animal [black](user_guess)?
+    - Could it be [black](user_guess)?
+    - Is it [white](user_guess)?
+    - Is this animal [white](user_guess)?
+    - Could it be [white](user_guess)?
+    - Is it [purple](user_guess)?
+    - Is this animal [purple](user_guess)?
+    - Could it be [purple](user_guess)?
+    - Is it [orange](user_guess)?
+    - Is this animal [orange](user_guess)?
+    - Could it be [orange](user_guess)?
+    - Is it [pink](user_guess)?
+    - Is this animal [pink](user_guess)?
+    - Could it be [pink](user_guess)?
+
+- intent: color_ask
+  examples: |
+    - What color?
+    - What color is the animal?
+    - What color is this animal?
+    - What color is it?
+    - What color is this?
+    - What is the color of the animal?
+    - Can you tell me the color of the animal?
+    - Tell me the name of the animal.
+
+- intent: leg_guess
+  examples: |
+    - Does it have [4](user_guess) legs?
+    - Does the animal have [2](user_guess) legs?
+    - Is the animal [0](user_guess) legged?
+
+- intent: leg_ask
+  examples: |
+    - How many legs does the animal have?
+    - Can you tell me how many legs the animal has?
+    - How many legs does it have?
+    - How many legs?
+
+- intent: talent_guess
+  examples: |
+    - Does it [swim](user_guess)?
+    - Does it animal [swim](user_guess)?
+    - Can it [swim](user_guess)?
+    - Does it [jump](user_guess)?
+    - Does it animal [jump](user_guess)?
+    - Can it [jump](user_guess)?
+    - Does it [fly](user_guess)?
+    - Does it animal [fly](user_guess)?
+    - Can it [fly](user_guess)?
+    - Does it [bark](user_guess)?
+    - Does it animal [bark](user_guess)?
+    - Can it [bark](user_guess)?
+    - Does it [whinny](user_guess)?
+    - Does it animal [whinny](user_guess)?
+    - Can it [whinny](user_guess)?
+
+- intent: animal_guess
+  examples: |
+    - Is it a [horse](user_guess)?
+    - Is this animal a [horse](user_guess)?
+    - Is it a [bird](user_guess)?
+    - Is this animal a [bird](user_guess)?
+    - Is it a [dog](user_guess)?
+    - Is this animal a [dog](user_guess)?
+    - Is it a [frog](user_guess)?
+    - Is this animal a [frog](user_guess)?
+    - Is it a [fish](user_guess)?
+    - Is this animal a [fish](user_guess)?
+    - Is it a [cat](user_guess)?
+    - Is this animal a [cat](user_guess)?
+    - Is it a [cow](user_guess)?
+    - Is this animal a [cow](user_guess)?
+    - Is it a [monkey](user_guess)?
+    - Is this animal a [monkey](user_guess)?
+    - Is it a [lion](user_guess)?
+    - Is this animal a [lion](user_guess)?
+    - Is it a [elephant](user_guess)?
+    - Is this animal a [elephant](user_guess)?
+    - Is it a [duck](user_guess)?
+    - Is this animal a [duck](user_guess)?
+    - Is it a [fox](user_guess)?
+    - Is this animal a [fox](user_guess)?
+
+- intent: animal_ask
+  examples: |
+    - What animal is this?
+    - What is this animal?
+    - Can you tell me what this animal is?
+    - Can you tell me which animal this is?
+    - I could not guess this animal.
+    - I do not know this animal.
+
+- intent: play_again
+  examples: |
+    - New game.
+    - Play again.
+    - Try again.
+    - Let's play again.
+    - Let's start over.

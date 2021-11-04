@@ -1,0 +1,54 @@
+{
+    "data": [
+        {
+            "name": "Horse",
+            "color": "Brown",
+            "legs": 4,
+            "swim": "No",
+            "jump": "No",
+            "fly": "No",
+            "bark": "No",
+            "whinny": "Yes"
+        },
+        {
+            "name": "Bird",
+            "color": "Blue",
+            "legs": 2,
+            "swim": "No",
+            "jump": "No",
+            "fly": "Yes",
+            "bark": "No",
+            "whinny": "No"
+        },
+        {
+            "name": "Dog",
+            "color": "Yellow",
+            "legs": 4,
+            "swim": "No",
+            "jump": "No",
+            "fly": "No",
+            "bark": "Yes",
+            "whinny": "No"
+        },
+        {
+            "name": "Frog",
+            "color": "Green",
+            "legs": 2,
+            "swim": "Yes",
+            "jump": "Yes",
+            "fly": "No",
+            "bark": "No",
+            "whinny": "No"
+        },
+        {
+            "name": "Fish",
+            "color": "Red",
+            "legs": 0,
+            "swim": "Yes",
+            "jump": "No",
+            "fly": "No",
+            "bark": "No",
+            "whinny": "No"
+        }
+    ]
+}
